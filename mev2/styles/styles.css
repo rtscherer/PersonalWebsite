@@ -1,0 +1,452 @@
+#home {
+	background: url(../images/black_woodgrain.jpg) 50% 0 no-repeat fixed;
+  	height: 800px;  
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#about {
+	background: url(../images/black_wood.jpg) 50% 0 no-repeat fixed;
+	height: 800px;
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#contact {
+	background: url(../images/black_woodgrain.jpg) 50% 0 no-repeat fixed;
+  	height: 800px;  
+	margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#home article {
+  	height: 458px; 
+	position: absolute; 
+	text-align: center;
+	top: 50px;
+	width: 100%;
+}
+
+div#home_scroll {
+	font-size: 16px;
+	top: 500px;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+	color: orange; 
+}
+ 
+#about article {
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 20px; 
+  width: 100%;
+}
+
+#contact article {
+  	height: 458px; 
+	position: absolute; 
+	text-align: center;
+	top: 20px;
+	width: 100%;
+}
+
+#navigation {
+	position: fixed;
+	top: 0px; 
+	margin: auto; 
+	height: 60px;
+	width: 100%;
+	background: #000000;
+	border-bottom: 1px solid #ED9121;
+	box-shadow: 0 0 5px 1px #000000;
+	z-index: 100000; 
+}
+
+/* -------------------
+   General Page Styles
+---------------------- */
+body
+{
+	/* background: transparent url('../images/thecity.jpg') no-repeat center center fixed; */
+	background: url('../images/black_woodgrain.jpg');
+	font-family: Verdana;
+}
+
+::selection
+{
+	background-color: #E3A869;
+}
+
+div
+{
+	display: inline-block;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.orangetext
+{
+	color: #ED9121;
+}
+/* -----------------------
+   End General Page Styles
+-------------------------- */
+
+/* ---------------------
+   Form Elements
+------------------------ */
+input.formbutton
+{
+	position: relative;
+	font-family: Courier;
+	font-size: 11pt;
+	margin: 10px 0px 10px 0px;
+	padding: 7px 0 7px 0;
+	width: 100px;
+	color: #888888;
+	background-color: #333333;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #444444;
+}
+
+input.formbutton a:visited
+{
+	text-decoration: none;
+	color: #333333;
+}
+
+input.formbutton:hover
+{
+	outline: none;
+	color: orange;
+	background-color: #555555;
+	/* border: 1px solid orange; */
+	box-shadow: 0 0 5px 1px orange;
+}
+
+input.textbox
+{
+	position: relative;
+	margin: 10px 0px 10px 0px;
+	height: 25px;
+	width: 250px;
+	font-size: 12pt;
+	color: #999999;
+	/* background-color: #555555; */
+	background: url('../images/debut_dark.png');
+	border: 1px solid orange;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+textarea
+{
+	position: relative;
+	margin: 10px 0px 10px 0px;
+	height: 200px;
+	width: 650px;
+	font-size: 12pt;
+	color: #999999;
+	/* background-color: #555555; */
+	background: url('../images/debut_dark.png');
+	border: 1px solid orange;
+	box-shadow: inset 0 0 10px #000000;
+}
+
+input:focus, textarea:focus
+{
+	outline: none;
+	background-color: #777777;
+	border: 1px solid #999999;
+	box-shadow: 0 0 2px 1px orange;
+	box-shadow: inset 0 0 10px #000000;
+}
+/* ---------------------
+   End Form Elements
+------------------------ */
+
+/* ------------
+   Social Media
+--------------- */
+div#facebook
+{
+	position: absolute;
+	top: 5px;
+	right: 0px;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+
+div#twitter
+{
+	position: absolute;
+	top: 5px;
+	right: 65px;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+
+div#linkedin
+{
+	position: absolute;
+	top: 5px;
+	right: 130px;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+/* ----------------
+   End Social Media
+------------------- */
+
+/* -----------------
+   Header/Navigation
+-------------------- */
+div.title
+{
+	font-size: 20pt;
+	margin-top: 2.5px;
+	color: #999999;
+}
+
+div.button
+{
+	font-family: Courier;
+	font-size: 11pt;
+	margin: 5px 2.5px 5px 2.5px;
+	padding: 7px 0 7px 0;
+	width: 100px;
+	color: #555555;
+	background-color: #111111;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #444444;
+}
+
+div.button a:visited
+{
+	text-decoration: none;
+	color: #333333;
+}
+
+div.button:hover
+{
+	color: orange;
+	border: 1px solid orange;
+}
+/* ---------------------
+   End Header/Navigation
+------------------------ */
+
+/* ---------------------
+   Main Content
+------------------------ */
+div.homecontent
+{
+	border-top: 1px solid orange;
+	border-bottom: 1px solid orange;
+	height: 428px;
+	width: 100%;
+	color: #777777;
+	background-color: #000000;
+	text-align: right;
+	vertical-align: text-top;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	z-index: 0;
+}
+
+div.maincontent
+{
+	border-top: 1px solid orange;
+	height: 600px;
+	width: 100%;
+	color: #777777;
+	background-color: #000000;
+	text-align: right;
+	vertical-align: text-top;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	z-index: 0;
+	-webkit-box-shadow: 0 8px 10px -6px #000000;
+	   -moz-box-shadow: 0 8px 10px -6px #000000;
+	        box-shadow: 0 8px 10px -6px #000000;
+}
+
+/* ---------------------
+   End Main Content
+------------------------ */
+
+/* ---------------------
+   Footer
+------------------------ */
+div.footer
+{
+	text-align: right;
+	width: 100%;
+	color: #000000;
+	margin-top: 5px;
+	background-color: #ED9121;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+/* ---------------------
+   End Footer
+------------------------ */
+
+/* ---------------------
+   Home Page
+------------------------ */
+div.hometext
+{
+	position: absolute;
+	font-size: 20px;
+	font-variant: small-caps;
+	top: 150px;
+	right: 450px;
+	height: 120px;
+	width: 600px;
+	color: #777777;
+	background-color: #000000;
+	text-align: right;
+	padding: 15px;
+}
+/* ---------------------
+   End Home Page
+------------------------ */
+
+/* ---------------------
+   About
+------------------------ */
+div.aboutheader
+{
+	position: absolute;
+	font-size: 20px;
+	font-variant: small-caps;
+	top: 90px;
+	left: 40px;
+	height: 25px;
+	width: 1000px;
+	color: #999999;
+	background-color: #000000;
+	text-align: left;
+	
+	padding: 5px;
+}
+
+div.abouttext
+{
+	position: absolute;
+	font-size: 15px;
+	font-variant: small-caps;
+	top: 135px;
+	left: 40px;
+	height: 300px;
+	width: 1000px;
+	padding: 5px;
+	color: #999999;
+	text-align: left;
+}
+/* ---------------------
+   End About
+------------------------ */
+
+/* ---------------------
+   Contact
+------------------------ */
+div.contactheader
+{
+	position: absolute;
+	font-size: 20px;
+	font-variant: small-caps;
+	top: 90px;
+	left: 40px;
+	height: 25px;
+	width: 800px;
+	color: #777777;
+	background-color: #000000;
+	text-align: left;
+}
+
+div.contactmeta
+{
+	position: absolute;
+	font-size: 20px;
+	font-variant: small-caps;
+	top: 145px;
+	left: 40px;
+	height: 200px;
+	width: 250px;
+	color: #777777;
+	background-color: #000000;
+	text-align: left;
+}
+
+div.spinner
+{
+	display: none;
+	position: absolute;
+	top: 400px;
+	left: 40px;
+	height: 55px;
+	width: 55px;
+}
+
+div.contactmessage
+{
+	position: absolute;
+	font-size: 20px;
+	font-variant: small-caps;
+	top: 145px;
+	left: 310px;
+	height: 200px;
+	width: 400px;
+	color: #777777;
+	background-color: #000000;
+	text-align: left;
+}
+
+div.contactsocialmedia
+{
+	position: absolute;
+	font-size: 20px;
+	font-variant: small-caps;
+	top: 5px;
+	right: 10px;
+	height: 25px;
+	width: 300px;
+	color: #777777;
+	background-color: #000000;
+	text-align: right;
+}
+/* ---------------------
+   End Contact
+------------------------ */
+
+div.error
+{
+	position: absolute;
+	font-size: 20px;
+	font-variant: small-caps;
+	top: 525px;
+	left: 10px;
+	height: 50px;
+	width: 1000px;
+	color: #777777;
+	background-color: #000000;
+	border: 1px solid orange;
+	text-align: left;
+}
