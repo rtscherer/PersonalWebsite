@@ -10,9 +10,8 @@
 				<div class="hometext">
 					My name is <span class="orangetext">Ryan Scherer</span>.
 					I'm a software developer with a passion for the web. Music motivates me,
-					raft beer relaxes me, and playing piano fulfills my never ending need to learn 
-					and challenge myself. I created this site purely for fun, and I'd be lying if
-					I said I didn't enjoy a cold brew or two while doing so.
+					craft beer relaxes me, and playing piano fulfills my never ending need to learn 
+					and challenge myself. I created this site purely for fun.
 				</div>
 				<img src="images/me.png" height="428" width="409" alt="That's me!" />
 			</div>

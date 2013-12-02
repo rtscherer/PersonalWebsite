@@ -1,6 +1,6 @@
 #home {
 	background: url(../images/black_woodgrain.jpg) 50% 0 no-repeat fixed;
-  	height: 800px;  
+  	height: 600px;  
 	margin: 0 auto;
     width: 100%;
     max-width: 1920px;
@@ -10,7 +10,7 @@
  
 #about {
 	background: url(../images/black_wood.jpg) 50% 0 no-repeat fixed;
-	height: 800px;
+	height: 600px;
 	margin: 0 auto;
     width: 100%;
     max-width: 1920px;
@@ -20,7 +20,7 @@
 
 #contact {
 	background: url(../images/black_woodgrain.jpg) 50% 0 no-repeat fixed;
-  	height: 800px;  
+  	height: 600px;  
 	margin: 0 auto;
     width: 100%;
     max-width: 1920px;
